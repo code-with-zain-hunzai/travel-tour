@@ -1,5 +1,6 @@
 <script lang="ts">
   import { Link } from "svelte-routing";
+  import travel from "../../assets/travel.png";
   let isMenuOpen = false;
 </script>
 
@@ -8,11 +9,7 @@
     <div class="flex justify-between h-16">
       <div class="flex items-center">
         <Link to="/" class="flex-shrink-0">
-          <img
-            src="https://images.unsplash.com/photo-1533281808624-e9b014cdb2e0?w=50&h=50&fit=crop&crop=faces"
-            alt="Travel Agency Logo"
-            class="h-8 w-auto rounded-full"
-          />
+          <img src={travel} alt="Travel Agency Logo" class="h-48 mt-3" />
         </Link>
       </div>
 
