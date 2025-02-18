@@ -39,10 +39,8 @@
               </div>
             </div>
           {/each}
-          }
         </div>
       </div>
     {/each}
-    }
   </div>
 </div>

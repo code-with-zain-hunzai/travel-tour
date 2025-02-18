@@ -63,14 +63,12 @@
                     <span>{feature}</span>
                   </li>
                 {/each}
-                }
               </ul>
             </div>
             <button class="btn-primary">Learn More</button>
           </div>
         </div>
       {/each}
-      }
     </div>
   </div>
 </div>

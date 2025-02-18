@@ -62,7 +62,6 @@
           <p class="text-gray-600">{member.description}</p>
         </div>
       {/each}
-      }
     </div>
   </div>
 </div>
