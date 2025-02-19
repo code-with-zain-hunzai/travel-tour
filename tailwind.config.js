@@ -1,17 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./src/**/*.{html,js,svelte,ts}'],
+  content: ["./src/**/*.{html,svelte,js,ts}"], // Ensure this path is correct
   theme: {
     extend: {
       colors: {
-        primary: '#FF6B6B',
-        secondary: '#4ECDC4',
-        dark: '#2C3E50',
+        primary: "#1E40AF", // Set your primary color
       },
-      fontFamily: {
-        sans: ['Poppins', 'sans-serif'],
-      }
     },
   },
   plugins: [],
-}
+};
